@@ -1,0 +1,19 @@
+food.com recipe and review data:
+
+1) Analyse what recipes to reccomend to people based on their ratings and review history
+	- uses rating data (maybe LVM)
+	- uses review data (maybe BOW etc.)
+	- tags for recipe (also using BOW etc.)
+   Could also analyse what data is more informative between the above two
+
+2) Analyse what recipes to reccomend given the above reccomendations and a set of ingredients
+	- simply filter based on ingredient
+	- filter based on ingredient and still reccomend recipes with easy (common) ingredients
+	- reccomend ingredients to get to make recipes that user would enjoy
+   Could also analyse the drop in MSE when the recipes are filtered by ingredients
+   Could analyse how well the extra ingredient reccomendations work based on how common/cheap ingredients 
+   are and how well new list of recipes suits user rather than simply filtering
+
+3) Also has nutritional values that we can make use of in the same way?
+
+ADDITIONAL DATA: No of steps/ingredients, cook time, date added (could time forecast recipe popularity)
